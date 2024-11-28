@@ -1,0 +1,72 @@
+.custom-alert {
+    display: none;
+    position: fixed;
+    padding: 20px;
+    padding-bottom: 10px !important;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    min-width: 150px;
+}
+  
+.custom-alert h2 {
+    margin-top: 10px;
+}
+
+.custom-alert-buttons {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.custom-alert-button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.custom-alert-button.confirm {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.custom-alert-button.denied {
+    background-color: #dc3545;
+    color: #fff;
+}
+.loadBarContainer {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+.popupLoadBar {
+    height: 10px;
+    width: 100%;
+    background-color: #d3d3d3;
+}
+.popupSVG {
+    width: 30px;
+    height: 30px;
+}
+
+.approvalButtonsRow {
+    display: inline-flex;
+    width: 100%;
+    padding: 5px 0px;
+    grid-gap: 10px;
+    justify-content: space-between;
+}
+
+.approvalButtonsRow a {
+    padding: 3px 16px;
+    border-radius: 25px;
+    font-weight: 600;
+    display: inline-flex !important;
+    align-items: center;
+    position: relative;
+    grid-gap: 5px;
+}
